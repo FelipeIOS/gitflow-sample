@@ -15,6 +15,8 @@
 		B27D6E9626EAF9090009E89A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B27D6E9426EAF9090009E89A /* LaunchScreen.storyboard */; };
 		B27D6EA126EAF90A0009E89A /* gitflowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27D6EA026EAF90A0009E89A /* gitflowTests.swift */; };
 		B27D6EAC26EAF90A0009E89A /* gitflowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27D6EAB26EAF90A0009E89A /* gitflowUITests.swift */; };
+		B27D6EBA26EB00B40009E89A /* ListaCartoes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B27D6EB926EB00B40009E89A /* ListaCartoes.storyboard */; };
+		B27D6EBC26EB00DA0009E89A /* ListaCartoesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27D6EBB26EB00DA0009E89A /* ListaCartoesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B27D6EA726EAF90A0009E89A /* gitflowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitflowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B27D6EAB26EAF90A0009E89A /* gitflowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gitflowUITests.swift; sourceTree = "<group>"; };
 		B27D6EAD26EAF90A0009E89A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B27D6EB926EB00B40009E89A /* ListaCartoes.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ListaCartoes.storyboard; sourceTree = "<group>"; };
+		B27D6EBB26EB00DA0009E89A /* ListaCartoesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaCartoesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		B27D6E8826EAF9020009E89A /* gitflow */ = {
 			isa = PBXGroup;
 			children = (
+				B27D6EB926EB00B40009E89A /* ListaCartoes.storyboard */,
+				B27D6EBB26EB00DA0009E89A /* ListaCartoesViewController.swift */,
 				B27D6E8926EAF9020009E89A /* AppDelegate.swift */,
 				B27D6E8B26EAF9020009E89A /* SceneDelegate.swift */,
 				B27D6E8D26EAF9020009E89A /* ViewController.swift */,
@@ -231,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B27D6EBA26EB00B40009E89A /* ListaCartoes.storyboard in Resources */,
 				B27D6E9626EAF9090009E89A /* LaunchScreen.storyboard in Resources */,
 				B27D6E9326EAF9090009E89A /* Assets.xcassets in Resources */,
 				B27D6E9126EAF9020009E89A /* Main.storyboard in Resources */,
@@ -258,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B27D6EBC26EB00DA0009E89A /* ListaCartoesViewController.swift in Sources */,
 				B27D6E8E26EAF9020009E89A /* ViewController.swift in Sources */,
 				B27D6E8A26EAF9020009E89A /* AppDelegate.swift in Sources */,
 				B27D6E8C26EAF9020009E89A /* SceneDelegate.swift in Sources */,
