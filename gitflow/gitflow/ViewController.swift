@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var emailTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -16,6 +18,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func tappedEnviarButton(_ sender: UIButton) {
+    }
+    
 }
 
